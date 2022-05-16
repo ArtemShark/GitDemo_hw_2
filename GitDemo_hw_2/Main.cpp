@@ -18,6 +18,7 @@ ofstream out("C:\\Users\\Admin\\Desktop\\Академия Шаг\\Homework\\Програмирование
 
 int main() {
 
+ 
 
 }
 
@@ -39,4 +40,11 @@ void menu() {
     cout << "Press 3 to save changes to the file" << endl;
     cout << "Press 0 to exit" << endl;
 
+}
+
+void save_results() {
+    for (int i = 0; i < number_of_tasks; i++)
+        out << todoitem[i].id << " " << todoitem[i].name << " " << todoitem[i].description << " " << todoitem[i].due_date << endl;
+    cout << "\Tasks are recorded in the out.txt\n" << endl;
+ 
 }

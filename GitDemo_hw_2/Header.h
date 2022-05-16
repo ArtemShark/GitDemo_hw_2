@@ -10,3 +10,5 @@ void add_tasks();
 
 void menu();
 
+void save_results();
+ 
