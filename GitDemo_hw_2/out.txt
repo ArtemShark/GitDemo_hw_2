@@ -1,0 +1,3 @@
+1 Shopping Buy_fruits 24.05
+2 Walking Go_to_park 22.05
+3 Travelling Buy_tickets 12.06
