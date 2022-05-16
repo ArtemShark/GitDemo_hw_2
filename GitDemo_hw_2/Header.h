@@ -5,3 +5,10 @@
 #include <string>
 #include <cstdlib>
 using namespace std;
+
+void add_tasks();
+
+void menu();
+
+void save_results();
+ 
