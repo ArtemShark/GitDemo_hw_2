@@ -5,3 +5,5 @@
 #include <string>
 #include <cstdlib>
 using namespace std;
+
+void menu();
