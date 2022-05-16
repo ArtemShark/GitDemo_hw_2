@@ -7,3 +7,6 @@
 using namespace std;
 
 void add_tasks();
+
+void menu();
+

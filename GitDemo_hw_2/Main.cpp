@@ -18,6 +18,7 @@ ofstream out("C:\\Users\\Admin\\Desktop\\Академия Шаг\\Homework\\Програмирование
 
 int main() {
 
+
 }
 
 void add_tasks() {
@@ -29,4 +30,13 @@ void add_tasks() {
     cin >> todoitem[number_of_tasks - 1].description;
     cout << "\nEnter the date of the new tasks\n";
     cin >> todoitem[number_of_tasks - 1].due_date;
+
+}
+
+void menu() {
+    cout << "To enter a new tasks, press 1" << endl;
+    cout << "To display all tasks, press 2" << endl;
+    cout << "Press 3 to save changes to the file" << endl;
+    cout << "Press 0 to exit" << endl;
+
 }
